@@ -1,8 +1,0 @@
-```yaml
-services:
-  - type: worker
-    name: flips-bot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python Chat_Bot_Mail.py
